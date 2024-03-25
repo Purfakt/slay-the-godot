@@ -1,0 +1,20 @@
+[gd_resource type="Theme" load_steps=7 format=3 uid="uid://c81sd83yb1igq"]
+
+[ext_resource type="StyleBox" uid="uid://cbl87du4n72a8" path="res://scenes/card_ui/card_disabled_style_box.tres" id="1_6q4s1"]
+[ext_resource type="StyleBox" uid="uid://cvt3x6ip0yapx" path="res://scenes/card_ui/card_base_style_box.tres" id="1_155tg"]
+[ext_resource type="FontFile" uid="uid://dskmdk146n4rq" path="res://art/pixel_rpg.ttf" id="1_uvlu1"]
+[ext_resource type="StyleBox" uid="uid://cofi8sw5wlqbl" path="res://scenes/card_ui/card_hover_style_box.tres" id="2_r2qaj"]
+[ext_resource type="StyleBox" uid="uid://blo7bcdkajrxq" path="res://scenes/card_ui/card_pressed_style_box.tres" id="4_vkoik"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_w0y8j"]
+
+[resource]
+default_font = ExtResource("1_uvlu1")
+default_font_size = 6
+Button/styles/disabled = ExtResource("1_6q4s1")
+Button/styles/focus = SubResource("StyleBoxEmpty_w0y8j")
+Button/styles/hover = ExtResource("2_r2qaj")
+Button/styles/normal = ExtResource("1_155tg")
+Button/styles/pressed = ExtResource("4_vkoik")
+Panel/styles/panel = ExtResource("1_155tg")
+PanelContainer/styles/panel = ExtResource("1_155tg")
